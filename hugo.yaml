@@ -6,6 +6,7 @@ publishDir: "public" # Output directory for the generated site
 contentDir: "content"  # Obsidian folder where posts folder is
  
  
+ 
 markup: # this all allows for markdown rendering including latex math and raw HTML
   goldmark:
     renderer:
