@@ -1,5 +1,99 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
-
+baseURL: "https://noahkleven.com/"
+languageCode: "en-us"
+title: "Noah’s Engineering Blog"
 theme: ["PaperMod"]
+publishDir: "public" # Output directory for the generated site
+contentDir: "content"  # Obsidian folder where posts folder is
+ 
+ 
+markup: # this all allows for markdown rendering including latex math and raw HTML
+  goldmark:
+    renderer:
+      unsafe: true # Allow raw HTML in markdown
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - $
+        enable: true
+ 
+taxonomies:
+  tag: "tags" # Allow tags like "Engineering", "Software", etc.
+  # category: "categories" # Allow categories like "Engineering", "Software", etc.
+ 
+ 
+params:
+  math: true # Enable math rendering for latex
+  ShowReadingTime: true # Show estimated reading time for posts
+  ShowBreadCrumbs: true # Enable breadcrumbs for navigation
+  ShowPostNavLinks: true # Enable next/previous post links
+  ShowCodeCopyButtons: true # Enable copy buttons for code blocks
+  ShowToc: true # Enable table of contents for posts
+  profileMode:
+    enabled: true # Enable profile mode for the homepage, one of the options that papermod has by default
+    title: "Blog" # optional default will be site title
+    subtitle: "Welcome to my blog!" # optional
+    imageUrl: "images/profile.jpg" # optional. Path relative to static/ folder which gets mapped to the root of the site (/ )
+    imageTitle: "ocket engine" # optional
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons: # Add buttons under the title/description for quick links to other parts of site. Any .md pages under content/ will be available here
+      - name: About
+        url: "/about/" # e.g. /about.md
+      - name: Posts
+        url: "/posts/"
+      - name: Tools
+        url: "/tools/"
+      - name: Industry
+        url: "/industry/"
+ 
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/"
+    - name: "Youtube"
+      url: "https://www.youtube.com/@"
+ 
+  assets: # generated with favicon.io to turn image into favicons of various sizes
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png" # unsure if this is used
+ 
+menu: # Navigation menu configuration
+  main:
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 1
+ 
+    - identifier: "archive"
+      name: "Archive"
+      url: "/archive/"
+      weight: 2
+ 
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 3
+ 
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"
+      weight: 4
+ 
+# add search functionality
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
