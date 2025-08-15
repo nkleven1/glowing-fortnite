@@ -42,7 +42,7 @@ params:
     enabled: true # Enable profile mode for the homepage, one of the options that papermod has by default
     title: "Noah’s Engineering Blog" # optional default will be site title
     subtitle: "Welcome to my blog!" # optional
-    imageUrl: "images/profile.jpg" # optional. Path relative to static/ folder which gets mapped to the root of the site (/ )
+    imageUrl: "/images/profile.jpg" # optional. Path relative to static/ folder which gets mapped to the root of the site (/ )
     imageTitle: "This is me in a fun hat!" # optional
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
