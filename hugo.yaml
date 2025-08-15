@@ -5,7 +5,7 @@ theme: ["PaperMod"]
 publishDir: "public" # Output directory for the generated site
 contentDir: "content"  # Obsidian folder where posts folder is
  
- 
+
  
 markup: # this all allows for markdown rendering including latex math and raw HTML
   goldmark:
@@ -40,10 +40,10 @@ params:
   ShowToc: true # Enable table of contents for posts
   profileMode:
     enabled: true # Enable profile mode for the homepage, one of the options that papermod has by default
-    title: "Blog" # optional default will be site title
+    title: "Noah’s Engineering Blog" # optional default will be site title
     subtitle: "Welcome to my blog!" # optional
     imageUrl: "images/profile.jpg" # optional. Path relative to static/ folder which gets mapped to the root of the site (/ )
-    imageTitle: "ocket engine" # optional
+    imageTitle: "This is me in a fun hat!" # optional
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
     buttons: # Add buttons under the title/description for quick links to other parts of site. Any .md pages under content/ will be available here
