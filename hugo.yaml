@@ -43,7 +43,7 @@ params:
     title: "Noah’s Engineering Blog" # optional default will be site title
     subtitle: "Welcome to my blog!" # optional
     imageUrl: "images/profile.jpg" # optional. Path relative to static/ folder which gets mapped to the root of the site (/ )
-    imageTitle: "This is me in a fun hat!" # optional
+    imageTitle: "Look" # optional
     imageWidth: 240 # custom size
     imageHeight: 240 # custom size
     buttons: # Add buttons under the title/description for quick links to other parts of site. Any .md pages under content/ will be available here
@@ -57,12 +57,12 @@ params:
         url: "/industry/"
  
   socialIcons: # optional
-    - name: "GitHub"
-      url: "https://github.com/"
+    #- name: "GitHub"
+    #  url: "https://github.com/"
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/"
-    - name: "Youtube"
-      url: "https://www.youtube.com/@"
+      url: "https://www.linkedin.com/in/noah-kleven/"
+    #- name: "Youtube"
+    #  url: "https://www.youtube.com/@"
  
   assets: # generated with favicon.io to turn image into favicons of various sizes
     favicon: "/favicon.ico"
