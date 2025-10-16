@@ -26,7 +26,7 @@ The numerical simulation:
 ###  Code Access
 You can **view or download** the full Python code here:
 
-👉 [**moon_capture.py**](../assets/code/moon_capture.py)
+👉 [**CR3BP.py**](../assets/code/CR3BP.py)
 
 ---
 
