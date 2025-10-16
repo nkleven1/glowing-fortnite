@@ -4,9 +4,7 @@ layout: "list"
 summary: "Useful scripts, simulators, and utilities I’ve made."
 ---
 
-# Tools
-
-A collection of useful calculators, simulators, and reference utilities.
+## A collection of useful calculators, simulators, and reference utilities.
 
 ---
 
