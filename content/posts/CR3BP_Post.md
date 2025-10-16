@@ -26,7 +26,7 @@ The numerical simulation:
 ###  Code Access
 You can **view or download** the full Python code here:
 
-👉 [**CR3BP.py**](../assets/code/CR3BP.py)
+👉 [**CR3BP.py**](/assets/code/CR3BP.py)
 
 ---
 
