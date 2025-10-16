@@ -288,7 +288,7 @@ print(f"Percentage of successful trajectories: {success_count / len(sample) * 10
 
 # Scatter plot
 plt.figure()
-plt.scatter(all_phi, all_vmag, c='red', alpha=0.5, edgecolors='black', label='All Trajectories')
+plt.scatter(all_phi, all_vmag, c='red', alpha=0.5, edgecolors='black', label='Moon-Impact Trajectories')
 plt.scatter(successful_phi, successful_vmag, c='green', alpha=0.75, edgecolors='black', label='Successful Trajectories')
 plt.scatter(best_phi, best_v_mag, c='blue', alpha=0.75, edgecolors='black', label='Trajectories with Δv < 3.5 km/s')
 plt.legend()

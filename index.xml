@@ -9,11 +9,18 @@
     <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://noahkleven.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post</title>
-      <link>https://noahkleven.com/posts/testpost/</link>
+      <title>Circular Restricted Three Body Problem</title>
+      <link>https://noahkleven.com/posts/cr3bp_post/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://noahkleven.com/posts/testpost/</guid>
-      <description>&lt;p&gt;This is a test post.&lt;/p&gt;</description>
+      <guid>https://noahkleven.com/posts/cr3bp_post/</guid>
+      <description>&lt;h1 id=&#34;-circular-restricted-three-body-problem&#34;&gt;🛰️ Circular Restricted Three Body Problem&lt;/h1&gt;
+&lt;h3 id=&#34;ep-471--project-summary&#34;&gt;EP 471 — Project Summary&lt;/h3&gt;
+&lt;p&gt;This project explores how &lt;strong&gt;small disturbances in launch angle and velocity&lt;/strong&gt; affect a &lt;strong&gt;single Moon flyby and return to Earth orbit&lt;/strong&gt;.&lt;br&gt;
+The orbit is simulated numerically using a &lt;strong&gt;Backward Differentiation Formula (BDF)&lt;/strong&gt; — chosen because other methods become unstable when trajectories pass near the Moon.&lt;/p&gt;
+&lt;p&gt;The system is modeled using the &lt;strong&gt;Circular Restricted Three Body Problem (CR3BP)&lt;/strong&gt; approximation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;methodology&#34;&gt;Methodology&lt;/h3&gt;
+&lt;p&gt;The numerical simulation:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
