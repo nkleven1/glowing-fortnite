@@ -17,3 +17,15 @@ summary: "Useful scripts, simulators, and utilities I’ve made."
     🔗 Open Parker O-Ring Calculator
   </a>
 </p>
+
+---
+
+## JPL Horizons Ephemeris System  
+*A web-based tool for generating high-precision ephemerides of planets, asteroids, comets, and spacecraft.*
+
+<p align="center">
+  <a href="https://ssd.jpl.nasa.gov/horizons/app.html#/" 
+     style="text-decoration:none; background:#007acc; color:white; padding:10px 20px; border-radius:8px;">
+    🔗 Open JPL Horizons
+  </a>
+</p>
